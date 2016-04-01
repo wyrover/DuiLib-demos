@@ -1,0 +1,3 @@
+[submodule "3rdparty/DuiLib"]
+	path = 3rdparty/DuiLib
+	url = git@github.com:wyrover/DuiLib-wyrover.git
