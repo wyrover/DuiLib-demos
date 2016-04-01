@@ -21,6 +21,16 @@ void C360SafeFrameWnd::OnFinalMessage(HWND /*hWnd*/)
     delete this;
 }
 
+DuiLib::CDuiString C360SafeFrameWnd::GetSkinFolder()
+{
+    return L"skin";
+}
+
+DuiLib::CDuiString C360SafeFrameWnd::GetSkinFile()
+{
+    return L"skin.xml";
+}
+
 void C360SafeFrameWnd::Init()
 {
     m_pCloseBtn = static_cast<CButtonUI*>(m_pm.FindControl(_T("closebtn")));
